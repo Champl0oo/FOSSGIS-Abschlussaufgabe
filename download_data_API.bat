@@ -32,3 +32,24 @@ curl -X POST ^
 --data-urlencode "filter=geometry=line" ^
 -o roads.geojson ^
 "https://api.ohsome.org/v1/elements/geometry"
+
+
+:: Landuse
+
+curl -X POST ^
+--data-urlencode "bboxes=8.6152,49.358,8.7697,49.4403" ^
+--data-urlencode "time=2021-11-01" ^
+--data-urlencode "filter=landuse=*" ^
+-o landuse.geojson ^
+"https://api.ohsome.org/v1/elements/geometry"
+
+
+:: Water
+
+curl -X POST ^
+--data-urlencode "bboxes=8.6152,49.358,8.7697,49.4403" ^
+--data-urlencode "time=2021-11-01" ^
+--data-urlencode "filter=water=*" ^
+-o water.geojson ^
+"https://api.ohsome.org/v1/elements/geometry"
+
