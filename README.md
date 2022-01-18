@@ -20,4 +20,7 @@ To-Do:
 - rasterize buildings for building-density map
 - Isochrone analysis for measuring reachable 15min bike area
 - 
- 
+
+### Limitations/Critique
+
+Der "Building= yes"-Tag unterscheidet nicht zwischen verschiedenen Gebäuden und beinhaltet jegliche Gebäude, die jeweils auch unbewohnt sein können. Das Filtern von "apartments", "houses", etc. hat zur Folge dass nicht alle Wohngebaude hinzugenommen werden, wodurch eine kleine Verzerrung entsteht.
