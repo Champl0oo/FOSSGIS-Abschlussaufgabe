@@ -20,8 +20,8 @@ Download/Installation click here https://qgis.org/de/site/forusers/download.html
 
 ### Data:
 We download all our Data using the Overpass Turbo API: https://overpass-turbo.eu/
-To download simply copy and paste the code for the different layers needed from the XYZ-File in this repository into the overpass turbo API and change the name of the city Heidelberg in the code to your desired city and press "Run/Ausführen". After this press "Export" and select your desired data-format. We always downloaded our Data as GeoJSON files.
+To download simply copy and paste the code for the different layers needed from the XYZ-File in this repository into the overpass turbo API and change the name of the city Heidelberg in the code to your desired city and press "Run/Ausführen". After this press "Export" and select your desired data-format. We always downloaded our data as GeoJSON files.
 
-###### Google Doc
+###### Google Doc (ignore this link, it was just for us to both quickly work on/send code and other things)
 
 https://docs.google.com/document/d/1Zo9EGYe_k8Nxh5krmuI_DKq1cYwTtIb6nw8F2tDkM-4/edit?usp=sharing
