@@ -1,31 +1,24 @@
-# FOSSGIS-Abschlussaufgabe
+### Multi-Criteria/Network Analysis : 
+### Automating the search for the most suitable location for an emission free grocery delivery service using multi-criteria and network analysis.
 
-Project-idea: What is the most suitable location for an emission free grocery delivery service using network analysis
+# General information 
 
-Criteria:
+Grocery Delivery Services are becomming more and more popular especially in the light of the pandemic.
+Therefore we created a model using QGIS, which automatically generates a map depicting the most suitable location for an emission free goocery delivery service in a city of your choice. There are a couple of different criteria aswell as issues regarding distance and pathing which is why we are sing both multi-critera and network analysis.
+
+### Criteria Examples:
   - Distance to supermarkets
-  - reachable by bike in 15min
+  - reachable distance by bike in 15min
   - population/building density
+  - road quality for cycling
 
 
-To-Do:
-- Downloading OSM Data with an API for:
-      - City Area/ city district areas
-      - Supermarkets
-      - Buildings
-      - Roads
-      - Cycling roads
-      - 
+# Software requirements
+### Software: 
+QGIS (We used Version 3.16.12; but this is not required) 
+Download/Installation click here https://qgis.org/de/site/forusers/download.html
 
-- rasterize buildings for building-density map
-- Isochrone analysis for measuring reachable 15min bike area
-- 
-
-### Limitations/Critique
-
-Der "Building= yes"-Tag unterscheidet nicht zwischen verschiedenen Gebäuden und beinhaltet jegliche Gebäude, die jeweils auch unbewohnt sein können. Das Filtern von "apartments", "houses", etc. hat zur Folge dass nicht alle Wohngebaude hinzugenommen werden, wodurch eine kleine Verzerrung entsteht.
-
-
+### Data:
 
 ###### Google Doc
 
