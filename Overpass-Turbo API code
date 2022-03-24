@@ -1,0 +1,47 @@
+//Code 1
+//Dieser Code printed die Stadtteile der gesuchten Stadt (geocodeArea). Admin_level bezeichnet dabei die administrative Ebene die geprinted werden soll. Wert 9 steht für Stadtteile
+
+[out:json][timeout:120];
+{{geocodeArea:Heidelberg}}->.searchArea;
+(
+  relation["admin_level"="9"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;
+
+
+//Code 2
+//Dieser Code printed Supermärkte und Gebäude. Diese können jeweils noch spezifiert werden mit "apartments, houses". Diese gefilterten Layer werden als Node, Ways und Relation geprinted (nwr).
+
+[out:json][timeout:120];
+{{geocodeArea:Heidelberg}}->.searchArea;
+(
+  nwr[shop=supermarket](area.searchArea);
+  nwr[building=apartments](area.searchArea);
+  nwr[building=residential](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;
+
+
+//Code 3 - Straßen und Wege
+//Challenge: Durch dasZusammenfassen von Straßen und Gehwegen könnne einzelne Straßen überrepräsentiert werden, da Verkehrstraßen sowie Gehwege einer einzelnen Straße genommen werden. Zudem scheint der Datensatz nicht gleichmäßig zu sein, da eigentlich jede Straße Gehwege hat.
+
+[out:json][timeout:120];
+{{geocodeArea:Heidelberg}}->.searchArea;
+(
+  nwr[highway=residential](area.searchArea);
+  nwr[highway=service](area.searchArea);
+  nwr[highway=path](area.searchArea);
+  nwr[highway=cycleway](area.searchArea);
+  nwr[highway=unclassified](area.searchArea);
+ 
+);
+// print results
+out body;
+>;
+out skel qt;
