@@ -45,3 +45,22 @@ out skel qt;
 out body;
 >;
 out skel qt;
+
+//Code 4 - Gebäude
+
+[out:json][timeout:120];
+{{geocodeArea:Heidelberg}}->.searchArea;
+(
+  nwr[building=house](area.searchArea);
+  nwr[building=apartments](area.searchArea);
+  nwr[building=residential](area.searchArea);
+  nwr[building=detached](area.searchArea);
+  nwr[building=hotel](area.searchArea);
+  nwr[building=terrace](area.searchArea);
+
+);
+// print results
+out body;
+>;
+out skel qt;
+
