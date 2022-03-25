@@ -35,6 +35,10 @@ Just run the "download_data_API.bat" file by doubleclicking it.
 ### Overpass-Turbo API:
 To download: simply copy and paste the code for the city districts from the - "API code "districts"-File" in this repository into the overpass turbo website (https://overpass-turbo.eu/). Change the name of the city Heidelberg in the code to your desired city and press "Run/Ausführen". After this press "Export" and select your desired data-format. We always download our data as GeoJSON files. You should name the file you download "districts".
 
+Now import all your data into QGIS. (Note: While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer.)
+
+The next step is importing the model_nr1 (also found in this repository) into QGIS and running it.
+
 ###### Google Doc (ignore this link, it was just for us to both quickly work on/send code and other things)
 
 https://docs.google.com/document/d/1Zo9EGYe_k8Nxh5krmuI_DKq1cYwTtIb6nw8F2tDkM-4/edit?usp=sharing
