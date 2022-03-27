@@ -45,6 +45,8 @@ Now import all your data into QGIS. (Note: While importing "buildings" and "road
 
 Import the model: "analysis1.model3" into QGIS and run it.
 
+Further explanation and analysis 2 follow soon tm...
+
 ###### Google Doc (ignore this link, it was just for us to both quickly work on/send code and other things)
 
 https://docs.google.com/document/d/1Zo9EGYe_k8Nxh5krmuI_DKq1cYwTtIb6nw8F2tDkM-4/edit?usp=sharing
