@@ -17,8 +17,12 @@ Therefore we created a model using QGIS, which automatically generates a map dep
 
 # Requirements
 ### Software: 
-Make sure you have the following software installed: QGIS QGIS (We used Version 3.24.1; but this is not required) 
+Make sure you have the following software installed: 
+- QGIS QGIS (We used Version 3.24.1; but this is not required) 
 Download/Installation click here https://qgis.org/de/site/forusers/download.html
+
+- The QGIS-Plugin "ORS-Tools" 
+You also need a valid API Key to use the tool, to get one use: ('Web' menu ► 'ORS Tools' ► 'Configuration') or sign up at https://openrouteservice.org/sign-up/.
 
 ### Other Requirements:
 - Make sure you are on Windows or find a way to run .bat files.
