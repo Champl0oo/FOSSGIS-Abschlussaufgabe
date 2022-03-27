@@ -37,7 +37,8 @@ Start by cloning the repository.
 Now download all the data using the APIs as described below.
 
 ### Ohsome API: 
-Just run the "download_data_API.bat" file by doubleclicking it.
+Use the website https://giscience.github.io/bbox-tool/bbox to create a fitting bounding box for your desired city and copy+paste the coordinates into the "download_data_API.bat" file and save the document.
+Now run the "download_data_API.bat" file by doubleclicking it.
 ### Overpass-Turbo API:
 To download: simply copy and paste the code for the city districts from the - "API code "districts"-File" in this repository into the overpass turbo website (https://overpass-turbo.eu/). Change the name of the city Heidelberg in the code to your desired city and press "Run/Ausführen". After this press "Export" and select your desired data-format. We always download our data as GeoJSON files. You should name the file you download "districts" and place it in your data folder.
 
