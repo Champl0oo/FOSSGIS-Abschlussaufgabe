@@ -29,19 +29,21 @@ Our Data is exclusivively OSM-Data.
 We download most of our Data with the Ohsome API script: "download_data_API".
 We download only the city districts using the Overpass Turbo API: https://overpass-turbo.eu/ , because it has greater accurracy then the bounding box of the Ohsome API and therefore makes further analysis easier.
 
-# Execution:
+# Execution 1 data:
 
 Start by cloning the repository.
 Now download all the data using the APIs as described below.
 
-## Ohsome API: 
+### Ohsome API: 
 Just run the "download_data_API.bat" file by doubleclicking it.
 ### Overpass-Turbo API:
 To download: simply copy and paste the code for the city districts from the - "API code "districts"-File" in this repository into the overpass turbo website (https://overpass-turbo.eu/). Change the name of the city Heidelberg in the code to your desired city and press "Run/Ausführen". After this press "Export" and select your desired data-format. We always download our data as GeoJSON files. You should name the file you download "districts".
 
 Now import all your data into QGIS. (Note: While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer.)
 
-The next step is importing the model: "analysis1.model3" (also found in this repository) into QGIS and running it.
+# Executution 2 analysis
+
+Import the model: "analysis1.model3" into QGIS and run it.
 
 ###### Google Doc (ignore this link, it was just for us to both quickly work on/send code and other things)
 
