@@ -23,8 +23,6 @@ Download/Installation click here https://qgis.org/de/site/forusers/download.html
 ### Other Requirements:
 - Make sure you are on Windows or find a way to run .bat files.
 - Make sure you have an active internet connection.
-- Create a folder in a location of your choice on your device. Make sure that the name does not contain invalid characters or spaces.
-- Download all the scripts and data into this folder.
 
 # Data:
 Our Data is exclusivively OSM-Data.
