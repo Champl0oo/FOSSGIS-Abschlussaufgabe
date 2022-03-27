@@ -21,8 +21,6 @@ Make sure you have the following software installed:
 - QGIS QGIS (We used Version 3.24.1; but this is not required) 
 Download/Installation click here https://qgis.org/de/site/forusers/download.html
 
-- The QGIS-Plugin "ORS-Tools" 
-You also need a valid API Key to use the tool, to get one use: ('Web' menu ► 'ORS Tools' ► 'Configuration') or sign up at https://openrouteservice.org/sign-up/.
 
 ### Other Requirements:
 - Make sure you are on Windows or find a way to run .bat files.
@@ -41,16 +39,11 @@ Now download all the data using the APIs as described below.
 ### Ohsome API: 
 Just run the "download_data_API.bat" file by doubleclicking it.
 ### Overpass-Turbo API:
-To download: simply copy and paste the code for the city districts from the - "API code "districts"-File" in this repository into the overpass turbo website (https://overpass-turbo.eu/). Change the name of the city Heidelberg in the code to your desired city and press "Run/Ausführen". After this press "Export" and select your desired data-format. We always download our data as GeoJSON files. You should name the file you download "districts".
+To download: simply copy and paste the code for the city districts from the - "API code "districts"-File" in this repository into the overpass turbo website (https://overpass-turbo.eu/). Change the name of the city Heidelberg in the code to your desired city and press "Run/Ausführen". After this press "Export" and select your desired data-format. We always download our data as GeoJSON files. You should name the file you download "districts" and place it in your data folder.
 
 Now import all your data into QGIS. (Note: While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer.)
 
 # Executution 2 analysis
 
-Import the model: "analysis1.model3" into QGIS and run it.
+Import the model: "analysis.model3" into QGIS and run it.
 
-Further explanation and analysis 2 follow soon tm...
-
-###### Google Doc (ignore this link, it was just for us to both quickly work on/send code and other things)
-
-https://docs.google.com/document/d/1Zo9EGYe_k8Nxh5krmuI_DKq1cYwTtIb6nw8F2tDkM-4/edit?usp=sharing
