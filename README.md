@@ -6,7 +6,7 @@ Work in Progress
 # General information 
 
 Grocery Delivery Services are becomming more and more popular especially in the light of the pandemic.
-Therefore we created a model using QGIS, which automatically generates a map depicting the most suitable location for an emission free goocery delivery service in a city of your choice. There are a couple of different criteria aswell as issues regarding distance and pathing which is why we are sing both multi-critera and network analysis.
+Therefore we created a model using QGIS, which automatically generates a map depicting the most suitable location for an emission free goocery delivery service in a city of your choice. There are a couple of different criteria aswell as issues regarding distance and pathing which is why we are using both multi-critera and network analysis.
 
 ### Criteria Examples:
   - Distance to supermarkets
@@ -15,12 +15,18 @@ Therefore we created a model using QGIS, which automatically generates a map dep
   - apartments density
   - supermarket density
 
-# Software requirements
+# Requirements
 ### Software: 
-QGIS (We used Version 3.16.12; but this is not required) 
+Make sure you have the following software installed: QGIS QGIS (We used Version 3.24.1; but this is not required) 
 Download/Installation click here https://qgis.org/de/site/forusers/download.html
 
-### Data:
+### Other Requirements:
+- Make sure you are on Windows or find a way to run .bat files.
+- Make sure you have an active internet connection.
+- Create a folder in a location of your choice on your device. Make sure that the name does not contain invalid characters or spaces.
+- Download all the scripts and data into this folder.
+
+# Data:
 Our Data is exclusivively OSM-Data.
 We download most of our Data with the Ohsome API script: "download_data_API".
 We download only the city districts using the Overpass Turbo API: https://overpass-turbo.eu/ , because it has greater accurracy then the bounding box of the Ohsome API and therefore makes further analysis easier.
@@ -37,7 +43,7 @@ To download: simply copy and paste the code for the city districts from the - "A
 
 Now import all your data into QGIS. (Note: While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer.)
 
-The next step is importing the model_nr1 (also found in this repository) into QGIS and running it.
+The next step is importing the model: "analysis1.model3" (also found in this repository) into QGIS and running it.
 
 ###### Google Doc (ignore this link, it was just for us to both quickly work on/send code and other things)
 
