@@ -10,7 +10,7 @@ Therefore we created a model using QGIS, which automatically generates a map dep
 
 ### Criteria Examples:
   - Distance to supermarkets
-  - reachable distance by bike in 15min
+  - roads and infrastructure
   - building density
   - apartments density
   - supermarket density
