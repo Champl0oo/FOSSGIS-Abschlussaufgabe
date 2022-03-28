@@ -27,7 +27,7 @@ Download/Installation click here https://qgis.org/de/site/forusers/download.html
 # Data:
 Our Data is exclusivively OSM-Data.
 We download most of our Data with the Ohsome API script: "download_data_API".
-We download only the city districts using the Overpass Turbo API: https://overpass-turbo.eu/ , because it has greater accurracy then the bounding box of the Ohsome API and therefore makes further analysis easier.
+We download only the city districts using the Overpass Turbo API: https://overpass-turbo.eu/ , because it has greater accurracy then the bounding box of the Ohsome API and therefore makes further analysis easier. Overpass Turbo is a web based data mining tool for OSM and was programmed by Martin Raifer. For more information visit https://wiki.openstreetmap.org/wiki/Overpass_turbo.
 
 # Execution:
 
