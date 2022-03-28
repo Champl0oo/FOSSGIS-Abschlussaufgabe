@@ -16,8 +16,8 @@ Therefore we created a model using QGIS, which automatically generates a map dep
 # Requirements
 ### Software: 
 Make sure you have the following software installed: 
-- QGIS QGIS (We used Version 3.24.1; but this is not required) 
-Download/Installation click here https://qgis.org/de/site/forusers/download.html
+- QGIS (We used Version 3.24.1; but this is not required) 
+Download/Installation click here https://qgis.org/de/site/forusers/download.html and follow the instructions.
 
 
 ### Other Requirements:
@@ -50,7 +50,7 @@ You should now have 5 different vektor layers in your data-folder called:
 Import all your data into QGIS. (Note: While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer.)
 
 Now open the "analysis_final.model3" file with the QGIS-modelbuilder. 
-Before you run the model, go to the algorythm "set style for vectorlayer" and choose the "Top3_districts.qml"-file from your cloned repository as stylefile (Stildatei).
+Before you run the model, go to the algorythm "set style for vectorlayer" at the very bottom and choose the "Top3_districts.qml"-file from your cloned repository as stylefile (Stildatei).
 
 You can now run the model. It should give you a layer called "Top3districts" which is your final result and shows you the top 3 districts for a potential grocery delivery service. 
 Dark green = 1
