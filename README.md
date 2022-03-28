@@ -4,7 +4,7 @@
 # General information 
 
 Grocery Delivery Services are becomming more and more popular especially in the light of the pandemic.
-Therefore we created a model using QGIS, which automatically generates a map depicting the most suitable location for an emission free goocery delivery service in a city of your choice. There are a couple of different criteria aswell as issues regarding distance and pathing which is why we are using both multi-critera and network analysis.
+Therefore we created a model using QGIS, which automatically generates a map depicting the most suitable city district for an emission free goocery delivery service in a city of your choice. There are different criteria aswell as issues regarding distance which is why we are using a multi-critera analysis approach.
 
 ### Criteria Examples:
   - Distance to supermarkets
