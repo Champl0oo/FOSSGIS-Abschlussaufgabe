@@ -52,13 +52,11 @@ Open a new QGIS-project, set your coordinate system to: EPSG:32632 - WGS 84 / UT
 While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer (Note: you do not have to change the coordinate sytem of your data, the model will do this for you).
 
 Now open the "analysis_final.model3" file with the QGIS-modelbuilder. 
-Before you run the model, go to the algorythm "set style for vectorlayer" at the very bottom and choose the "Top3_districts.qml"-file from your cloned repository as stylefile (Stildatei).
+Before you run the model, go to the algorythm "set style for vectorlayer" at the very bottom and choose the "district_colouring.qml"-file from your cloned repository as stylefile (Stildatei).
 
 The .qml-file is there to instantly colour and set a style to the end resut of our analysis, so that the user does not have to manually enter the style-editor and create a suitable map style just to see the results.
 
-You can now run the model. It should give you a layer called "Top3districts" which is your final result and shows you the top 3 districts for a potential grocery delivery service. 
-Dark green = 1
-Olive green = 2
-Yellow = 3
+You can now run the model. It should give you a layer called "Top10_districts" which is your final result and shows you the top 10 districts for a potential grocery delivery service. It should be said, that only the green/darker green areas should really be considered for a possible location. 
+
 
 
