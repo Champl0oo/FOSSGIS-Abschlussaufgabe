@@ -47,7 +47,8 @@ You should now have 5 different vektor layers in your data-folder called:
 4. roads
 5. supermarkets
 
-Import all your data into QGIS. (Note: While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer.)
+Open a new QGIS-project, set your coordinate system to: EPSG:32632 - WGS 84 / UTM zone 32N and import all your data into QGIS. 
+While importing "buildings" and "roads" the programm might ask you what vectorlayers you want to add. Simply choose polygons for the buildings-layer and line-string for the roads-layer (Note: you do not have to change the coordinate sytem of your data, the model will do this for you).
 
 Now open the "analysis_final.model3" file with the QGIS-modelbuilder. 
 Before you run the model, go to the algorythm "set style for vectorlayer" at the very bottom and choose the "Top3_districts.qml"-file from your cloned repository as stylefile (Stildatei).
